@@ -6,12 +6,10 @@ function fadeAnime() {
 
     if (scroll >= elemPos - windowHeight) {
       $(this).addClass('fadeUp');
-    } else {
-      $(this).removeClass('fadeUp');
     }
   });
 }
 
-$(window).on('scroll', function () {
+$(window).on('scroll load', function () {
   fadeAnime();
 });
