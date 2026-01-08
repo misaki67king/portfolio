@@ -791,6 +791,11 @@ h2.blue::after {
 	font-weight: 500;
 }
 
+@media only screen and (max-width: 769px) {
+	h2.blue{margin: 0;}
+	
+}
+
 /*
 ============================
 WORKS
