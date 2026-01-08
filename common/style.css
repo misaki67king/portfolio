@@ -1206,6 +1206,9 @@ ABOUT
     height: 34px;
     font-size: 18px;
   }
+	.carousel-dots{
+		bottom: 0;
+	}
 }
 
 @media (max-width: 480px) {
